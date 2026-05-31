@@ -25,7 +25,7 @@ body:after{background:linear-gradient(90deg,#04133766,transparent 35%,transparen
 .panel{border:1px solid #7057c3aa;border-radius:14px;background:linear-gradient(145deg,#10163de8,#06091ce8);box-shadow:0 0 0 1px #1b1449 inset,0 0 16px #5625b133;backdrop-filter:blur(8px)}
 .btn{min-height:38px;padding:0 13px;border:1px solid #6854b0;border-radius:10px;color:#f4eeff;font-weight:900;background:linear-gradient(180deg,#1a1948,#0a0e2b);box-shadow:0 0 12px #2d226d inset;transition:.18s ease}.btn:hover:not(:disabled){transform:translateY(-2px);border-color:#bd70ff;box-shadow:0 0 15px #8a46ff88,0 0 15px #3a267f inset}.btn:disabled{opacity:.35;cursor:not-allowed;filter:grayscale(.6)}
 .btn-main{border-color:#d562ff;background:linear-gradient(180deg,#9227d9,#4c1498);box-shadow:0 0 18px #d052ff77}.btn-cyan{border-color:#52dcff;background:linear-gradient(180deg,#125ea1,#082a60)}.btn-gold{border-color:#ffe06a;color:#fff7bd;background:linear-gradient(180deg,#735214,#382609)}.btn-red{border-color:#ff6f87;background:linear-gradient(180deg,#7d2336,#36101f)}
-.top-brand{position:absolute;z-index:30;left:12px;top:10px;display:flex;align-items:center;gap:6px;color:#eef8ff;font-size:11px;font-weight:1000;letter-spacing:1px;text-shadow:0 0 9px #6fd9ff}.top-brand b{color:#d4b2ff;font-size:17px}
+.top-brand{position:absolute;z-index:30;left:12px;top:10px;display:flex;flex-direction:column;align-items:flex-start;gap:1px;color:#eef8ff;font-size:11px;font-weight:1000;letter-spacing:1px;text-shadow:0 0 9px #6fd9ff}.top-brand .brand-title{display:flex;align-items:center;gap:6px}.top-brand b{color:#d4b2ff;font-size:17px}.top-brand .brand-credit{padding-left:23px;color:#b9b5ca;font-size:8px;font-weight:800;letter-spacing:.1px;line-height:1.25;text-shadow:0 0 5px #000}.top-brand .brand-credit span{padding:0 3px;color:#80789b}
 .toast{position:absolute;z-index:70;left:50%;top:40px;display:none;width:max-content;max-width:86%;transform:translateX(-50%);padding:9px 13px;border:1px solid #a462ff;border-radius:999px;color:#fff;background:#100c31ef;box-shadow:0 0 15px #7b3cff77;font-size:11px;font-weight:900;text-align:center}.toast.show{display:block;animation:toastIn .2s ease}@keyframes toastIn{from{opacity:0;transform:translate(-50%,-8px)}to{opacity:1;transform:translate(-50%,0)}}
 /* outside developer panels */
 .gallery-sidebar{flex:1 1 0;min-width:230px;max-width:340px;height:calc(100vh - 24px);display:flex;flex-direction:column;gap:10px;color:#e9e3f8}
@@ -66,7 +66,7 @@ body:after{background:linear-gradient(90deg,#04133766,transparent 35%,transparen
   </aside>
 
   <main class="mobile-shell" id="gameShell">
-    <div class="top-brand"><b>✦</b> MONSTARZ · 캄몬 키우기</div>
+    <div class="top-brand"><div class="brand-title"><b>✦</b> MONSTARZ · 캄몬 키우기</div><div class="brand-credit">제작자 : 손실바 <span>·</span> 일러스트 제공 : Realize?</div></div>
     <div class="toast" id="toast"></div>
 
     <section class="game-screen active" id="setupScreen">
