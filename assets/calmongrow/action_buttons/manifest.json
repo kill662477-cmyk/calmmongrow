@@ -1,0 +1,12 @@
+{
+  "basePath": "assets/calmongrow/action_buttons/",
+  "format": "PNG with transparent background",
+  "canvas": "128x128",
+  "files": {
+    "trophy": "btn_trophy.png",
+    "shield": "btn_shield.png",
+    "training": "btn_training.png",
+    "streaming": "btn_streaming.png",
+    "heart": "btn_heart.png"
+  }
+}

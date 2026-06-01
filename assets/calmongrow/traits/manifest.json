@@ -1,0 +1,19 @@
+{
+  "basePath": "assets/calmongrow/traits/",
+  "effects": {
+    "summon": "effects/trait_summon_effect.png"
+  },
+  "backs": {
+    "default": "backs/trait_card_back.png"
+  },
+  "fronts": {
+    "focus": "fronts/trait_focus.png",
+    "tournament": "fronts/trait_tournament.png",
+    "fanservice": "fronts/trait_fanservice.png",
+    "mental": "fronts/trait_mental_strong.png",
+    "practice": "fronts/trait_practice_bug.png",
+    "lazy": "fronts/trait_lazy_genius.png",
+    "volatile": "fronts/trait_volatile.png",
+    "burnout": "fronts/trait_burnout.png"
+  }
+}
